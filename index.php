@@ -25,6 +25,10 @@ if( isset( $_REQUEST['r'] ) && ( isset( $_REQUEST['apikey'] ) && strlen( $_REQUE
             $valid = TRUE;
         }
     }
+    if( isset( $_REQUEST['o'] ) )
+    {
+        $opt = $_REQUEST['o'];
+    }
 
     if( $valid )
     {
@@ -32,7 +36,6 @@ if( isset( $_REQUEST['r'] ) && ( isset( $_REQUEST['apikey'] ) && strlen( $_REQUE
         {
             // GET API Calls
             case "get":
-                $opt = $_REQUEST['o'];
                 switch( $opt )
                 {
                     case "all": // Get all but archived
