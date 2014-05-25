@@ -1,7 +1,7 @@
 Wallabag API
 ===
 
-Gives [Wallabag](https://www.wallabag.org/ "Wallabag") a basic API for accessing the stored links/data and adding new links.
+Gives [Wallabag](https://www.wallabag.org/ "Wallabag") a basic API for accessing the stored links and for adding new links.
 
 ***
 
@@ -14,7 +14,7 @@ Gives [Wallabag](https://www.wallabag.org/ "Wallabag") a basic API for accessing
 	 * key = A randum string that is the API key for authenticating an API call.
  
     $config[] = array( "uid" => 1, "key" => "RandomXYZ-APIKey" );
- 4. You can add multiple users by adding another of the above lines to the file.
+ 4. You can add multiple users by adding another of the above lines to the config file and changing the uid to reflect the users Wallabag id.
 
 
 ### API Reference ###
