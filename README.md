@@ -1,7 +1,7 @@
-Wallabag API
+Wallabag v1 API
 ===
 
-Gives [Wallabag](https://www.wallabag.org/ "Wallabag") a basic API for accessing the stored links and for adding new links.
+Gives [Wallabag v1](https://github.com/wallabag/wallabag/tree/legacy "Wallabag v1") a basic API for accessing the stored links and for adding new links.
 
 ***
 
